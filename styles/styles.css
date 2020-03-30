@@ -15,9 +15,6 @@ body {
     margin-bottom: 3%;
 }
 
-/* .navigation {
-    margin-bottom: 3%;
-} */
 .nav-item-pad {
     padding: 0 1.5rem;
 }
@@ -33,7 +30,7 @@ body {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3)
 }
 
-/* WELCOME HEADER */
+/* HEADINGS */
  .welcome-box {
     padding: 1% 0 1%;
 } 
@@ -60,19 +57,6 @@ body {
     font-size: 1.2rem;
 }
 
-.test {
-    /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3) */
-
-}
-
-.test2 {
-    /* border: .5px solid rgb(161, 161, 161); */
-}
-
-.products-box {
-    /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3) */
-}
-
 .products-tab {
     border: none;
 }
@@ -89,6 +73,20 @@ body {
 .tab-content {
     margin-top: 3%;
 }
+
+.card-img-bottom {
+    margin-top: 5%;
+}
+
+/* FOOTER */
+
+.footer-card {
+    border: none;
+}
+.footer-header {
+    background-color: #fff;
+}
+
 /* TESTING */
 /* 
 #test {
