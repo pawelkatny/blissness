@@ -47,6 +47,15 @@ body {
     color: rgb(161, 161, 161);
 }
 
+/* TEXT, PARAGRAPHS */
+.main-black {
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    color: #000;
+}
+
 /* PRODUCTS */
 .card-title {
     font-size: 1.2rem;
@@ -83,8 +92,19 @@ body {
 .footer-card {
     border: none;
 }
+
+.footer-card-body {
+    padding: 5% 0;
+    border: none;
+}
+
 .footer-header {
     background-color: #fff;
+    border: none;
+}
+
+.btn-contact {
+    margin-top: 3%;
 }
 
 /* TESTING */
