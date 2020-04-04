@@ -1,6 +1,7 @@
-
 body {
-    font-family:  "Catamaran", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Catamaran", sans-serif;
 }
 
 /* NAVIGATION */
@@ -19,7 +20,8 @@ body {
     padding: 0 1.5rem;
 }
 
-.nav-link-main, .nav-link-drop {
+.nav-link-main,
+.nav-link-drop {
     color: #000;
 }
 
@@ -34,6 +36,7 @@ body {
     min-width: 0rem;
     left: 20%;
 }
+
 .menu-drop-shadow {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3)
 }
@@ -44,25 +47,16 @@ body {
     filter: invert(1);
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     filter: invert(1);
     position: absolute;
 }
 
-.carousel-control-prev-icon {
-    left: -3rem;
-}
-
-.carousel-control-next-icon {
-    right: -3rem;
-}
-
-
-
 /* HEADINGS */
- .welcome-box {
+.welcome-box {
     padding: 1% 0 1%;
-} 
+}
 
 .welcome-box h3 {
     font-size: 1.5rem;
@@ -70,6 +64,22 @@ body {
 }
 
 .welcome-box p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2;
+    color: rgb(161, 161, 161);
+}
+
+.heading-box {
+    padding: 1% 0 1%;
+}
+
+.heading-title {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.heading-p {
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 2;
@@ -103,6 +113,10 @@ body {
     margin: 0 5%;
 }
 
+.products-info-icon {
+    font-size: 7rem;
+}
+
 .nav-link.active {
     border-top: 1px solid;
     border-width: 1px;
@@ -133,7 +147,7 @@ body {
 }
 
 .btn-contact {
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .footer-social-link {
@@ -144,6 +158,19 @@ body {
 
 .footer-social-link:hover {
     text-decoration: none;
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 1366px) {
+
+    .carousel-control-prev-icon {
+        left: -2rem;
+    }
+
+    .carousel-control-next-icon {
+        right: -2rem;
+    }
 }
 
 /* TESTING */
