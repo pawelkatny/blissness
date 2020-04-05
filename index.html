@@ -12,13 +12,13 @@
     </head>
 
     <body>
-        <div class="container text-center">
+        <div class="container my-3 my-md-5 text-center">
             <img class="img-fluid img-logo" src="images/logo-new-raul.png" alt="">
         </div>
-        <div class="navigation container">
+        <div class="navigation container my-3 my-md-5">
             <nav class="navbar navbar-expand-lg">
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                    <ul class="navbar-nav ">
+                    <ul class="navbar-nav">
                         <li class="nav-item nav-item-pad">
                             <a class="nav-link nav-link-main" href="">HOME</a>
                         </li>
@@ -42,11 +42,15 @@
                         </li>
                     </ul>
                 </div>
+                <div class="float-right">
+                    <a href="" class="footer-social-link"><i class="fab fa-facebook-square"></i></a>
+                    <a href="" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                </div>
             </nav>
         </div>
 
         <section id="start">
-            <div class="container text-center">
+            <div class="container my-3 my-md-5 text-center">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -77,195 +81,239 @@
         </section>
 
         <section id="welcome">
-            <div class="container heading-box text-center">
-                <div>
-                    <h3 class="heading-title">Lorem ipsum</h3>
-                    <p class="heading-p">Lorem ipsum dolor sit amet, consectetur.</p>
-                    <p class="heading-p">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                </div>
+            <div class="container my-3 my-md-5 py-5 text-center">
+                <h3 class="heading-title">Lorem ipsum</h3>
+                <p class="heading-p">Lorem ipsum dolor sit amet, consectetur.</p>
+                <p class="heading-p">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
             </div>
         </section>
 
         <section id="products">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-4">
-                        <div>
-                            <img src="images/products/psanto-1.png" class="card-img-top img-fluid" lt="">
-                            <div class="card-body">
-                                <h5 class="main-black">PALO SANTO</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac.
-                                </p>
+
+            <div class="container my-3 my-md-5 text-center">
+                <div class="card border-0">
+                    <div class="card-header bg-white border-0 main-black text-left">
+                        OUR PRODUCTS
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div>
+                                    <img src="images/products/psanto-1.png" class="card-img-top img-fluid" lt="">
+                                    <div class="card-body">
+                                        <h5 class="main-black">PALO SANTO</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Nulla ac.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div>
+                                    <img src="images/products/wsage-1.png" class="card-img-top img-fluid" alt="">
+                                    <div class="card-body">
+                                        <h5 class="main-black">WHITE SAGE</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Nulla ac.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div>
+                                    <img src="images/products/access-1.png" class="card-img-top img-fluid" alt="">
+                                    <div class="card-body">
+                                        <h5 class="main-black">ACCESSORIES</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Nulla ac.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div>
-                            <img src="images/products/wsage-1.png" class="card-img-top img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="main-black">WHITE SAGE</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac.
-                                </p>
+
+                    <div class="my-3 my-md-5 py-5 text-center">
+                        <h3 class="heading-title">Lorem ipsum</h3>
+                    </div>
+                    <ul class="nav border-0 justify-content-center card-deck" id="myTab" role="tablist">
+                        <li class="nav-item product-item">
+                            <a class="nav-link nav-link-main active" id="home-tab" data-toggle="tab" href="#home"
+                                role="tab" aria-controls="home" aria-selected="true">PALO SANTO</a>
+                        </li>
+                        <li class="nav-item product-item">
+                            <a class="nav-link nav-link-main" id="profile-tab" data-toggle="tab" href="#profile"
+                                role="tab" aria-controls="profile" aria-selected="false">WHITE SAGE</a>
+                        </li>
+                        <li class="nav-item product-item">
+                            <a class="nav-link nav-link-main" id="contact-tab" data-toggle="tab" href="#contact"
+                                role="tab" aria-controls="contact" aria-selected="false">ACCESSORIES</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <p class="card-text text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
+                                        augue, ultrices sed dui quis,
+                                        scelerisque pellentesque mauris. Pellentesque.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p class="card-text text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
+                                        augue, ultrices sed dui quis,
+                                        scelerisque pellentesque mauris. Pellentesque.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p class="card-text text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
+                                        augue, ultrices sed dui quis,
+                                        scelerisque pellentesque mauris. Pellentesque.
+                                    </p>
+                                </div>
+                                <div class="col-12">
+                                    <img src="images/products/palo-santo-tab.png" class="img-fluid card-img-bottom"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <p class="card-text text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
+                                        augue, ultrices sed dui quis,
+                                        scelerisque pellentesque mauris. Pellentesque.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p class="card-text text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
+                                        augue, ultrices sed dui quis,
+                                        scelerisque pellentesque mauris. Pellentesque.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p class="card-text text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
+                                        augue, ultrices sed dui quis,
+                                        scelerisque pellentesque mauris. Pellentesque.
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <img src="images/products/white-sage-tab.png" class="img-fluid card-img-bottom"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <p class="card-text text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
+                                        augue, ultrices sed dui quis,
+                                        scelerisque pellentesque mauris. Pellentesque.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p class="card-text text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
+                                        augue, ultrices sed dui quis,
+                                        scelerisque pellentesque mauris. Pellentesque.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p class="card-text text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
+                                        augue, ultrices sed dui quis,
+                                        scelerisque pellentesque mauris. Pellentesque.
+                                    </p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <img src="images/products/access-tab.png" class="img-fluid card-img-bottom" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+
+                    <div class="mt-3 mt-md-5 py-5 text-center">
                         <div>
-                            <img src="images/products/access-1.png" class="card-img-top img-fluid" alt="">
-                            <div class="card-body">
-                                <h5 class="main-black">ACCESSORIES</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac.
-                                </p>
-                            </div>
+                            <h3 class="heading-title">Lorem ipsum</h3>
+                            <p class="heading-p">Lorem ipsum dolor sit amet, consectetur.</p>
+                            <p class="heading-p">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                            <a href="#" class="btn btn-lg btn-warning btn-custom mt-4">GO SOMEWHERE</a>
                         </div>
+                    </div>
+        </section>
+
+
+
+        <section id="about">
+            <div class="container my-3 my-md-5">
+                <div class="card text-center border-0">
+                    <div class="card-header bg-white border-0 main-black text-left">
+                        ABOUT US
+                    </div>
+                    <div class="card-body py-5 bg-light">
+                        <h3 class="heading-title">Lorem ipsum</h3>
+                        <p class="heading-p">Lorem ipsum dolor sit amet, consectetur.</p>
+                        <p class="heading-p">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                     </div>
                 </div>
-            </div>
-            <div class="container heading-box text-center">
-                <h3 class="heading-title">Lorem ipsum</h3>
-            </div>
-            <div class="container">
-                <ul class="nav products-tab justify-content-center card-deck" id="myTab" role="tablist">
-                    <li class="nav-item product-item">
-                        <a class="nav-link nav-link-main active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                            aria-controls="home" aria-selected="true">PALO SANTO</a>
-                    </li>
-                    <li class="nav-item product-item">
-                        <a class="nav-link nav-link-main" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                            aria-controls="profile" aria-selected="false">WHITE SAGE</a>
-                    </li>
-                    <li class="nav-item product-item">
-                        <a class="nav-link nav-link-main" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                            aria-controls="contact" aria-selected="false">ACCESSORIES</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id turpis ac metus
-                                pharetra ornare. Sed a viverra ante. Mauris ipsum augue, ultrices sed dui quis,
-                                scelerisque pellentesque mauris. Pellentesque.
-                            </div>
-                            <div class="col-lg-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id turpis ac metus
-                                pharetra ornare. Sed a viverra ante. Mauris ipsum augue, ultrices sed dui quis,
-                                scelerisque pellentesque mauris. Pellentesque.
-                            </div>
-                            <div class="col-lg-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id turpis ac metus
-                                pharetra ornare. Sed a viverra ante. Mauris ipsum augue, ultrices sed dui quis,
-                                scelerisque pellentesque mauris. Pellentesque.
-                            </div>
-                            <div class="col-lg-12">
-                                <img src="images/products/palo-santo-tab.png" class="img-fluid card-img-bottom" alt="">
-                            </div>
+
+                <div class="row mt-3 mt-md-5 justify-content-center text-center">
+                    <div class="col-md-6 col-lg-4">
+                        <i class="fas fa-globe-americas products-info-icon text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <ul class="list-unstyled li-pb card-text text-left">
+                                <li>+ praesent eu efficitur eros. Sed.</li>
+                                <li>+ venenatis, leo sapien sollicitudin nunc</li>
+                                <li>+ ehicula nunc quis enim efficitur</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id turpis ac metus
-                                pharetra ornare. Sed a viverra ante. Mauris ipsum augue, ultrices sed dui quis,
-                                scelerisque pellentesque mauris. Pellentesque.
-                            </div>
-                            <div class="col-lg-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id turpis ac metus
-                                pharetra ornare. Sed a viverra ante. Mauris ipsum augue, ultrices sed dui quis,
-                                scelerisque pellentesque mauris. Pellentesque.
-                            </div>
-                            <div class="col-lg-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id turpis ac metus
-                                pharetra ornare. Sed a viverra ante. Mauris ipsum augue, ultrices sed dui quis,
-                                scelerisque pellentesque mauris. Pellentesque.
-                            </div>
-                            <div class="col-lg-12">
-                                <img src="images/products/white-sage-tab.png" class="img-fluid card-img-bottom" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id turpis ac metus
-                                pharetra ornare. Sed a viverra ante. Mauris ipsum augue, ultrices sed dui quis,
-                                scelerisque pellentesque mauris. Pellentesque.
-                            </div>
-                            <div class="col-lg-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id turpis ac metus
-                                pharetra ornare. Sed a viverra ante. Mauris ipsum augue, ultrices sed dui quis,
-                                scelerisque pellentesque mauris. Pellentesque.
-                            </div>
-                            <div class="col-lg-4">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id turpis ac metus
-                                pharetra ornare. Sed a viverra ante. Mauris ipsum augue, ultrices sed dui quis,
-                                scelerisque pellentesque mauris. Pellentesque.
-                            </div>
-                            <div class="col-lg-12">
-                                <img src="images/products/access-tab.png" class="img-fluid card-img-bottom" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-center heading-box">
-                <h3 class="heading-title">Lorem ipsum</h3>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="row no-gutter  justify-content-center">
-                            <div class="col-4">
-                                <i class="fas fa-globe-americas products-info-icon float-right"></i>
-                            </div>
-                            <div class="col-6 text-left">
-                                <ul class="list-unstyled card-text">
-                                    <li>+ praesent eu efficitur eros. Sed.</li>
-                                    <li>+ venenatis, leo sapien sollicitudin nunc</li>
-                                    <li>+ ehicula nunc quis enim efficitur</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row no-gutter">
-                            <div class="col-6 text-right">
-                                <ul class="list-unstyled card-text">
-                                    <li>hendrerit in metus in posuere +</li>
-                                    <li>arcu quis fermentum convallis, neque tellus scelerisque neque +</li>
-                                    <li>t dignissim ligula elit a metus +</li>
-                                </ul>
-                            </div>
-                            <div class="col-4">
-                                <i class="fas fa-seedling products-info-icon float-left"></i>
-                            </div>
+                    <div class="col-md-6 col-lg-4">
+                        <i class="fas fa-seedling products-info-icon text-success"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <ul class="list-unstyled li-pb card-text text-left">
+                                <li>+ hendrerit in metus in posuere</li>
+                                <li>+ arcu quis fermentum convallis, neque tellus scelerisque neque</li>
+                                <li>+ dignissim ligula elit a metus</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="container heading-box text-center">
-            <div>
-                <h3 class="heading-title">Lorem ipsum</h3>
-                <p class="heading-p">Lorem ipsum dolor sit amet, consectetur.</p>
-                <p class="heading-p">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                <a href="#" class="btn btn-lg btn-outline-dark nav-link-black btn-contact">GO SOMEWHERE</a>
-            </div>
-        </div>
-
         <section id="footer">
-            <div class="container heading-box">
-                <div class="card text-center footer-card">
-                    <div class="card-header footer-header main-black">
+            <div class="container my-3 my-md-5">
+                <div class="card border-0">
+                    <div class="card-header bg-white border-0 main-black text-left">
                         CONTACT
                     </div>
-                    <div class="card-body footer-card-body bg-light">
+                    <div class="card-body py-5 bg-light text-center">
                         <h3 class="heading-title">Lorem ipsum.</h5>
                             <p class="heading-p">Integer quis tellus finibus, auctor libero vitae, feugiat quam. Nunc.
                             </p>
-
-                            <a href="#" class="btn btn-lg btn-outline-dark nav-link-black btn-contact">GET IN TOUCH</a>
+                            <a href="#" class="btn btn-lg btn-outline-dark btn-custom mt-4">GET IN TOUCH</a>
                     </div>
-                    <div class="row card-footer footer-header justify-content-between">
+                    <div class="row card-footer bg-white border-0 justify-content-between mt-4 text-center">
                         <div class="col-lg-4">
                             <p class="card-text">xlogox copyright 2020</p>
                         </div>
@@ -277,18 +325,16 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/4ff1c0f09b.js" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+            <script src="https://kit.fontawesome.com/4ff1c0f09b.js" crossorigin="anonymous"></script>
     </body>
 
 </html>
