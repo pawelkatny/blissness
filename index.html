@@ -16,7 +16,15 @@
             <img class="img-fluid img-logo" src="images/logo-new-raul.png" alt="">
         </div>
         <div class="navigation container my-3 my-md-5">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-md">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="far fa-caret-square-down"></i>
+                </button>
+                <div class="d-inline-block d-md-none nav-social-icons-sm">
+                    <a href="" class="social-icon-lg text-body"><i class="fab fa-facebook-square pr-2"></i></a>
+                    <a href="" class="social-icon-lg text-body"><i class="fab fa-instagram"></i></a>
+                </div>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item nav-item-pad">
@@ -25,7 +33,7 @@
                         <li class="nav-item dropdown nav-item-pad">
                             <a class="nav-link nav-link-main dropdown-toggle" href="#" id="dropProducts" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
-                            <div class="dropdown-menu border-light menu-drop-shadow" aria-labelledby="dropProducts">
+                            <div class="dropdown-menu border-0 menu-drop-shadow" aria-labelledby="dropProducts">
                                 <a class="dropdown-item nav-link-drop" href="#">Palo Santo</a>
                                 <a class="dropdown-item nav-link-drop" href="#">White Sage</a>
                                 <a class="dropdown-item nav-link-drop" href="#">Accesories</a>
@@ -40,12 +48,14 @@
                         <li class="nav-item nav-item-pad">
                             <a class="nav-link  nav-link-main" href="#">CONTACT</a>
                         </li>
+
                     </ul>
                 </div>
-                <div class="float-right">
-                    <a href="" class="footer-social-link"><i class="fab fa-facebook-square"></i></a>
+                <div class="position-absolute d-none d-md-block nav-social-icons-md">
+                    <a href="" class="footer-social-link"><i class="fab fa-facebook-square pr-2"></i></a>
                     <a href="" class="footer-social-link"><i class="fab fa-instagram"></i></a>
                 </div>
+
             </nav>
         </div>
 
@@ -154,7 +164,7 @@
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 mb-3">
                                     <p class="card-text text-justify">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
@@ -163,7 +173,7 @@
                                     </p>
                                 </div>
                                 <div class="col-lg-4">
-                                    <p class="card-text text-justify">
+                                    <p class="card-text text-justify mb-3">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
                                         augue, ultrices sed dui quis,
@@ -186,7 +196,7 @@
                         </div>
                         <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 mb-3">
                                     <p class="card-text text-justify">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
@@ -194,7 +204,7 @@
                                         scelerisque pellentesque mauris. Pellentesque.
                                     </p>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 mb-3">
                                     <p class="card-text text-justify">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
@@ -218,7 +228,7 @@
                         </div>
                         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 mb-3">
                                     <p class="card-text text-justify">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum
@@ -226,7 +236,7 @@
                                         scelerisque pellentesque mauris. Pellentesque.
                                     </p>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 mb-3">
                                     <p class="card-text text-justify">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Aenean id turpis ac metus pharetra ornare. Sed a viverra ante. Mauris ipsum

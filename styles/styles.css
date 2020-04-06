@@ -27,14 +27,34 @@ body {
     letter-spacing: 0.1rem;
 }
 
-.dropdown-menu {
-    min-width: 0rem;
-    left: 20%;
+.nav-social-icons-md {
+    right: 0rem;
 }
 
-.menu-drop-shadow {
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3)
+.social-icon-lg {
+    font-size: 2rem;
 }
+
+.nav-social-icons-sm {
+    top: 0;
+    right: 0;
+}
+
+.navbar-toggler {
+    background-color: none;
+    border: none;
+    font-size: 2rem;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+/* .dropdown-menu {
+    min-width: 0rem;
+    left: 20%;
+} */
+
+
 
 /* START HEADER*/
 
@@ -133,6 +153,13 @@ body {
 
 
 /* MEDIA QUERIES */
+@media only screen and (min-width: 768px) {
+
+    .menu-drop-shadow {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+    }
+}
+
 @media only screen and (min-width: 1366px) {
 
     .carousel-control-prev-icon {
