@@ -321,8 +321,73 @@
                         <h3 class="heading-title">Lorem ipsum.</h5>
                             <p class="heading-p">Integer quis tellus finibus, auctor libero vitae, feugiat quam. Nunc.
                             </p>
-                            <a href="#" class="btn btn-lg btn-outline-dark btn-custom mt-4">GET IN TOUCH</a>
+                            <button type="button" class="btn btn-lg btn-outline-dark btn-custom mt-4"
+                                data-toggle="modal" data-target="#exampleModalCenter">GET IN TOUCH</button>
                     </div>
+
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 mb-0 pb-0">
+                                    <h5 class="bg-white border-0 main-black text-left" id="exampleModalCenterTitle">
+                                        CONTACT</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body bg-light">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-md-4">
+                                            <div class="card border-0 bg-light">
+                                                <div class="card-body bg-light card-text">
+                                                    <h5 class="card-title">Company name</h5>
+                                                    <ul class="list-unstyled">
+                                                        <li>426  Mandan Road</li>
+                                                        <li>Columbia, 65201 MO</li>
+                                                        <li>US</li>
+                                                    </ul>
+                                                    <ul class="list-unstyled">
+                                                        <li>info@company.com</li>
+                                                        <li>P1: 777-999-888</li>
+                                                        <li>P2: 666-555-444</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 card-text">
+                                            <form class="card-body">
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlInput1">Name</label>
+                                                    <input type="email" class="form-control"
+                                                        id="exampleFormControlInput1" placeholder="name@example.com">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlInput1">Email address</label>
+                                                    <input type="email" class="form-control"
+                                                        id="exampleFormControlInput1" placeholder="name@example.com">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlTextarea1">Your message</label>
+                                                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                        rows="6"></textarea>
+                                                </div>
+                                                <div class="form-group text-center">
+                                                    <button type="button" class="btn btn-warning btn-modal"
+                                                        data-dismiss="modal">SUBMIT</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer border-0">
+                                    <button type="button" class="btn btn-outline-dark btn-modal"
+                                        data-dismiss="modal">CLOSE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row card-footer bg-white border-0 justify-content-between mt-4 text-center">
                         <div class="col-lg-4">
                             <p class="card-text">xlogox copyright 2020</p>
@@ -335,6 +400,7 @@
                     </div>
                 </div>
             </div>
+
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
                 integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
                 crossorigin="anonymous"></script>

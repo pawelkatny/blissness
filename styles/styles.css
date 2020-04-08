@@ -102,6 +102,17 @@ body {
     letter-spacing: 0.1rem;
 }
 
+.btn-warning:hover {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-modal {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
 
 .li-pb li {
     padding: 1% 0 1%;
@@ -117,10 +128,6 @@ body {
     font-size: 1.2rem;
 }
 
-
-.product-item {
-    margin: 0 5%;
-}
 
 .products-info-icon {
     font-size: 8rem;
