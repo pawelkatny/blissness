@@ -12,8 +12,8 @@
     </head>
 
     <body>
-        <div class="container my-3 my-md-5 text-center">
-            <img class="img-fluid img-logo" src="images/logo.png" alt="">
+        <div id="home" class="container my-3 my-md-5 text-center">
+            <img class="img-fluid" src="images/logo.png" alt="">
         </div>
         <div class="navigation container my-3 my-md-5">
             <nav class="navbar navbar-expand-md">
@@ -28,25 +28,25 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item nav-item-pad">
-                            <a class="nav-link nav-link-main" href="">HOME</a>
+                            <a class="nav-link nav-link-main" href="#home">HOME</a>
                         </li>
                         <li class="nav-item dropdown nav-item-pad">
                             <a class="nav-link nav-link-main dropdown-toggle" href="#" id="dropProducts" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
                             <div class="dropdown-menu border-0 menu-drop-shadow" aria-labelledby="dropProducts">
-                                <a class="dropdown-item nav-link-drop" href="#">Palo Santo</a>
-                                <a class="dropdown-item nav-link-drop" href="#">White Sage</a>
-                                <a class="dropdown-item nav-link-drop" href="#">Accesories</a>
+                                <a class="dropdown-item nav-link-drop" href="#products">Proin</a>
+                                <a class="dropdown-item nav-link-drop" href="#products">Gravida</a>
+                                <a class="dropdown-item nav-link-drop" href="#products">Erat</a>
                             </div>
                         </li>
                         <li class="nav-item nav-item-pad">
                             <a class="nav-link  nav-link-main" href="#">SHOP</a>
                         </li>
                         <li class="nav-item nav-item-pad">
-                            <a class="nav-link  nav-link-main" href="#">ABOUT</a>
+                            <a class="nav-link  nav-link-main" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item nav-item-pad">
-                            <a class="nav-link  nav-link-main" href="#">CONTACT</a>
+                            <a class="nav-link  nav-link-main" href="#footer">CONTACT</a>
                         </li>
 
                     </ul>
@@ -62,7 +62,7 @@
         <section id="start">
             <div class="container my-3 my-md-5 text-center">
                 <div id="carousel-main" class="carousel slide carousel-fade" data-ride="carousel">
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators hide-car-controls">
                         <li data-target="#carousel-main" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-main" data-slide-to="1"></li>
                         <li data-target="#carousel-main" data-slide-to="2"></li>
@@ -78,11 +78,13 @@
                             <img src="images/slides/slide-3.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carousel-main" role="button" data-slide="prev">
+                    <a class="carousel-control-prev hide-car-controls" href="#carousel-main" role="button"
+                        data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next">
+                    <a class="carousel-control-next hide-car-controls" href="#carousel-main" role="button"
+                        data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -111,7 +113,7 @@
                                 <div>
                                     <img src="images/products/product-1.png" class="card-img-top img-fluid" lt="">
                                     <div class="card-body">
-                                        <h5 class="main-black">PALO SANTO</h5>
+                                        <h5 class="main-black">PROIN</h5>
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                             Nulla ac.
                                         </p>
@@ -122,7 +124,7 @@
                                 <div>
                                     <img src="images/products/product-2.png" class="card-img-top img-fluid" alt="">
                                     <div class="card-body">
-                                        <h5 class="main-black">WHITE SAGE</h5>
+                                        <h5 class="main-black">GRAVIDA</h5>
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                             Nulla ac.
                                         </p>
@@ -133,7 +135,7 @@
                                 <div>
                                     <img src="images/products/product-3.png" class="card-img-top img-fluid" alt="">
                                     <div class="card-body">
-                                        <h5 class="main-black">ACCESSORIES</h5>
+                                        <h5 class="main-black">ERAT</h5>
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                             Nulla ac.
                                         </p>
@@ -147,22 +149,22 @@
                         <h3 class="heading-title">Lorem ipsum</h3>
                     </div>
                     <ul class="nav border-0 justify-content-center card-deck" id="myTab" role="tablist">
-                        <li class="nav-item product-item">
-                            <a class="nav-link nav-link-main active" id="home-tab" data-toggle="tab" href="#home"
-                                role="tab" aria-controls="home" aria-selected="true">PALO SANTO</a>
+                        <li class="nav-item mr-md-5">
+                            <a class="tab-link nav-link nav-link-main active" id="prod1-tab" data-toggle="tab"
+                                href="#prod1" role="tab" aria-controls="prod1" aria-selected="true">PROIN</a>
                         </li>
-                        <li class="nav-item product-item">
-                            <a class="nav-link nav-link-main" id="profile-tab" data-toggle="tab" href="#profile"
-                                role="tab" aria-controls="profile" aria-selected="false">WHITE SAGE</a>
+                        <li class="nav-item mr-md-5">
+                            <a class="tab-link nav-link nav-link-main" id="prod2-tab" data-toggle="tab" href="#prod2"
+                                role="tab" aria-controls="prod2" aria-selected="false">GRAVIDA</a>
                         </li>
-                        <li class="nav-item product-item">
-                            <a class="nav-link nav-link-main" id="contact-tab" data-toggle="tab" href="#contact"
-                                role="tab" aria-controls="contact" aria-selected="false">ACCESSORIES</a>
+                        <li class="nav-item">
+                            <a class="tab-link nav-link nav-link-main" id="prod3-tab" data-toggle="tab" href="#prod3"
+                                role="tab" aria-controls="prod3" aria-selected="false">ERAT</a>
                         </li>
                     </ul>
 
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="tab-pane fade show active" id="prod1" role="tabpanel" aria-labelledby="prod1-tab">
                             <div class="row">
                                 <div class="col-lg-4 mb-3">
                                     <p class="card-text text-justify">
@@ -189,12 +191,11 @@
                                     </p>
                                 </div>
                                 <div class="col-12">
-                                    <img src="images/products/tab-1.png" class="img-fluid card-img-bottom"
-                                        alt="">
+                                    <img src="images/products/tab-1.png" class="img-fluid card-img-bottom" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="tab-pane fade" id="prod2" role="tabpanel" aria-labelledby="prod2-tab">
                             <div class="row">
                                 <div class="col-lg-4 mb-3">
                                     <p class="card-text text-justify">
@@ -221,12 +222,11 @@
                                     </p>
                                 </div>
                                 <div class="col-lg-12">
-                                    <img src="images/products/tab-2.png" class="img-fluid card-img-bottom"
-                                        alt="">
+                                    <img src="images/products/tab-2.png" class="img-fluid card-img-bottom" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="tab-pane fade" id="prod3" role="tabpanel" aria-labelledby="prod3-tab">
                             <div class="row">
                                 <div class="col-lg-4 mb-3">
                                     <p class="card-text text-justify">
@@ -286,7 +286,7 @@
 
                 <div class="row mt-3 mt-md-5 justify-content-center text-center">
                     <div class="col-md-6 col-lg-4">
-                        <img src="images/icon-1.png" alt="">
+                        <img src="images/icons/icon-1.png" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum</h5>
                             <ul class="list-unstyled li-pb card-text text-left list-center">
@@ -297,10 +297,10 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <img src="images/icon-2.png" alt="">
+                        <img src="images/icons/icon-2.png" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum</h5>
-                            <ul class="list-unstyled li-pb card-text text-left">
+                            <ul class="list-unstyled li-pb card-text text-left list-center">
                                 <li>+ hendrerit in metus in posuere</li>
                                 <li>+ arcu quis fermentum convallis, neque tellus scelerisque neque</li>
                                 <li>+ dignissim ligula elit a metus</li>
@@ -321,7 +321,8 @@
                         <h3 class="heading-title">Lorem ipsum.</h5>
                             <p class="heading-p">Integer quis tellus finibus, auctor libero vitae, feugiat quam. Nunc.
                             </p>
-                            <button type="button" class="btn btn-lg btn-outline-dark btn-custom mt-4 d-none d-md-inline-block"
+                            <button type="button"
+                                class="btn btn-lg btn-outline-dark btn-custom mt-4 d-none d-md-inline-block"
                                 data-toggle="modal" data-target="#exampleModalCenter">GET IN TOUCH</button>
                     </div>
 
@@ -329,18 +330,15 @@
                         <form class="card-body">
                             <div class="form-group">
                                 <label for="formInput">Name</label>
-                                <input type="email" class="form-control"
-                                    id="formInput" placeholder="your name">
+                                <input type="email" class="form-control" id="formInput" placeholder="your name">
                             </div>
                             <div class="form-group">
                                 <label for="formInput">Email address</label>
-                                <input type="email" class="form-control"
-                                    id="formInput" placeholder="name@example.com">
+                                <input type="email" class="form-control" id="formInput" placeholder="name@example.com">
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Your message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1"
-                                    rows="6"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
                             </div>
                             <div class="form-group text-center">
                                 <button type="button" class="btn btn-warning btn-modal"
@@ -367,7 +365,7 @@
                                                 <div class="card-body bg-light card-text">
                                                     <h5 class="card-title">Company name</h5>
                                                     <ul class="list-unstyled">
-                                                        <li>426  Mandan Road</li>
+                                                        <li>426 Mandan Road</li>
                                                         <li>Columbia, 65201 MO</li>
                                                         <li>US</li>
                                                     </ul>
@@ -383,13 +381,13 @@
                                             <form class="card-body">
                                                 <div class="form-group">
                                                     <label for="formInput">Name</label>
-                                                    <input type="name" class="form-control"
-                                                        id="formInput" placeholder="your name">
+                                                    <input type="name" class="form-control" id="formInput"
+                                                        placeholder="your name">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="formInput">Email address</label>
-                                                    <input type="email" class="form-control"
-                                                        id="formInput" placeholder="name@example.com">
+                                                    <input type="email" class="form-control" id="formInput"
+                                                        placeholder="name@example.com">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="exampleFormControlTextarea1">Your message</label>
@@ -418,7 +416,7 @@
                                 <div class="card-body card-text">
                                     <h5 class="card-title">Company name</h5>
                                     <ul class="list-unstyled">
-                                        <li>426  Mandan Road</li>
+                                        <li>426 Mandan Road</li>
                                         <li>Columbia, 65201 MO</li>
                                         <li>US</li>
                                     </ul>

@@ -5,11 +5,6 @@ body {
 }
 
 /* NAVIGATION */
-.img-logo {
-    max-width: 60%;
-    height: auto;
-    margin-top: 3%;
-}
 
 .nav-item-pad {
     padding: 0 1.5rem;
@@ -49,11 +44,6 @@ body {
 .navbar-toggler:focus {
     outline: none;
 }
-/* .dropdown-menu {
-    min-width: 0rem;
-    left: 20%;
-} */
-
 
 
 /* START HEADER*/
@@ -69,11 +59,6 @@ body {
 }
 
 /* HEADINGS */
-.heading-box {
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
 .heading-title {
     font-size: 1.5rem;
     line-height: 2;
@@ -133,7 +118,7 @@ body {
     font-size: 8rem;
 }
 
-.nav-link.active {
+.tab-link.active {
     border-top: 1px solid;
     border-width: 1px;
 }
@@ -171,6 +156,10 @@ body {
 
     .list-center li {
         text-align: center;
+    }
+
+    .hide-car-controls {
+        display: none;
     }
 }
 
